@@ -1,8 +1,8 @@
 class_name Player
 extends CharacterBody2D
 
-var jump_force: float = -500
-var speed: float = 200
+@export var jump_force: float = -500
+@export var speed: float = 200
 var friction: float = 20
 var accelerate: float = 50
 var dir: float = 0.0
